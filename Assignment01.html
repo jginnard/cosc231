@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Mars Tourism Form</title>
+		<meta charset="UTF-8">
+		<style>
+	
+		</style>
+	</head>
+		
+	<body>
+		<h2>Mars Tourism Board. Welcome. We are here to help. Don't worry about a thing!</h2>
+		<form>
+		<h3>What is the primary purpose of your trip?</h3>
+			<table>
+				<tr>
+					<td><label><input type="radio" value="Business" name="Purpose">Business</label></td>
+					<td><label><input type="radio" value="General Tourism" name="Purpose">General Tourism</label></td>
+					<td><label><input type="radio" value="Romance" name="Purpose">Romance</label></td>
+				</tr>
+			</table>
+		<h3>Who is travelling with you? Check all that apply.</h3>	
+			<table>
+				<tr>
+					<td><label><input type="checkbox" value="Adults" name="Companions">Adults</label></td>
+					<td><label><input type="checkbox" value="Cyborgs or Androids" name="Companions">Cyborgs or Androids</label></td>
+					<td><label><input type="checkbox" value="Pets" name="Companions">Pets</label></td>
+				</tr>
+				<tr>
+					<td><label><input type="checkbox" value="Minors" name="Companions">Minors</label></td>
+					<td><label><input type="checkbox" value="Enhanced animal" name="Companions">Enhanced animal</label></td>
+				</tr>
+			</table>
+		<h3>Where will you stay the majority of your trip?</h3>
+			<table>
+				<tr>
+					<td><label><input type="radio" value="The Resort at Olympus Mons" name="Location"><em>The Resort</em> at Olympus Mons</label></td>
+					<td><label><input type="radio" value="Government Facility" name="Location">Government Facility</label></td>
+				</tr>
+				<tr>
+					<td><label><input type="radio" value="Mariner Lodge at Valles Marineris" name="Location"><em>Mariner Lodge</em> at Valles Marineris</label></td>
+					<td><label><input type="radio" value="Prospecting or working claim" name="Location">Prospecting or working claim</label></td>
+				</tr>
+				<tr>
+					<td><label><input type="radio" value="Northern Vistas at Planum Boreum" name="Location"><em>Northern Vistas</em> at Planum Boreum</label></td>
+					<td><label><input type="radio" value="Other" name="Location">Other</label></td>
+				</tr>
+			</table>
+		<h3>What activities are you interested in? Check all that apply.</h3>
+			<table>
+				<tr>
+					<td><label><input type="checkbox" value="Amazonis Plamitia 500 km pod racer rally" name="Location">Amazonis Plamitia 500 km pod racer rally</label></td>
+					<td><label><input type="checkbox" value="Photography" name="Location">Photography</label></td>
+				</tr>
+				<tr>
+					<td><label><input type="checkbox" value="Planum Boreum snowmobile trek" name="Location">Planum Boreum snowmobile trek</label></td>
+					<td><label><input type="checkbox" value="Research" name="Location">Research</label></td>
+				</tr>
+				<tr>
+					<td><label><input type="checkbox" value="Water/mineral prospecting or working claim" name="Location">Water/mineral prospecting or working claim</label></td>
+				</tr>
+			</table>
+		<br />
+		<hr width="510" align="left"/>
+		<h3>Personal information</h3>
+			<table>
+				<tr>
+					<td>Preferred salutation<td>
+					<td><select name="Preferred_Salutation">
+							<option value="Mr">Mr</option>
+							<option value="Ms">Ms</option>
+							<option value="Mrs">Mrs</option>
+							<option value="Dr">Dr</option></td>
+						</select>	
+				</tr>
+				<tr>
+					<td>Last name<td>
+					<td><input type="text" name="lastName" /><td>
+				</tr>
+				<tr>
+					<td>Identification Number<td>
+					<td><input type="text" name="ID" /><td>
+				</tr>
+				<tr>
+					<td>Email<td>
+					<td><input type="text" name="Email" /><td>
+				</tr>
+			</table>	
+		<h3>What are you?</h3>
+			<select name="PersonType">
+				<option value="Human">Human</option>
+				<option value="Space Alien">Space Alien</option>
+				<option value="Android">Android</option>
+				<option value="Cyborg">Cyborg</option>
+				<option value="Enhanced animal">Enhanced animal</option>
+			</select>
+		<h3>Other comments/questions?</h3>
+			<textarea name="Comments" cols="53" rows="6">This text will be forwarded to a "customer associate" for careful analysis. We will be getting back to you.</textarea>
+		<hr width="510"" align="left"/>
+		<h3>Your Instructions are to click</h3>
+			<button type="reset" value="ClearAllData">Clear all data</button>
+			<button type="submit" name="submit">Tell us what we need to know</button>
+		</form>
+	</body>
+</html>
